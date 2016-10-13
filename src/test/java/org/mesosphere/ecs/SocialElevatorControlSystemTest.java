@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class AwesomeElevatorControlSystemTest {
+public class SocialElevatorControlSystemTest {
 
     @Test
     public void simpleQueue() {
@@ -30,7 +30,7 @@ public class AwesomeElevatorControlSystemTest {
     }
 
     private void runSimulation(int numberFloors, int numberElevators, String file) {
-        AwesomeElevatorControlSystem ecs = new AwesomeElevatorControlSystem(numberFloors, numberElevators);
+        SocialElevatorControlSystem ecs = new SocialElevatorControlSystem(numberFloors, numberElevators);
 
         List<Event> events = new ArrayList<>();
 

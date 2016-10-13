@@ -7,13 +7,13 @@ import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Queue;
 
-public class AwesomeElevatorControlSystem implements ElevatorControlSystem {
+public class SocialElevatorControlSystem implements ElevatorControlSystem {
     private static final int NUM_ELEVATORS = 16;
 
     private ArrayList<Elevator> elevators = new ArrayList<>();
     private Queue<Event> pickupQueue = new ArrayDeque<>();
 
-    public AwesomeElevatorControlSystem(int numberFloors, int numberElevators) {
+    public SocialElevatorControlSystem(int numberFloors, int numberElevators) {
         if (numberFloors < 0)
             throw new IllegalArgumentException("Floors must be a positive number");
         if (numberElevators < 0)
