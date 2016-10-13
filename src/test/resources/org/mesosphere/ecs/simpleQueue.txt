@@ -1,0 +1,3 @@
+#Simple queue
+#Format: timestep,floor,destination
+000,000,001

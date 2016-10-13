@@ -1,0 +1,5 @@
+# Advanced queue
+# Format: time step,floor,destination
+000,000,002
+005,000,001
+005,002,004
