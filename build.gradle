@@ -1,0 +1,20 @@
+group 'org.mesosphere.ecs'
+version '1.0'
+
+buildscript {
+    ext.junit_version = '4.12'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "junit:junit:$junit_version"
+}
